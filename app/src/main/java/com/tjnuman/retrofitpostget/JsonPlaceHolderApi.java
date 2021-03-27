@@ -18,7 +18,7 @@ public interface JsonPlaceHolderApi {
     Call<PostModel> getSinglePost();
 
     @POST("posts")
-    Call<PostModel>creatPost(@Body POST post);
+    Call<PostModel>creatPost(@Body PostModel post);
 
 
 }
